@@ -239,6 +239,87 @@ h3 {
     margin: 1rem 0.7rem 0 0;
 }
 
+/* RESPONSIVENESS */
+
+@media (max-width: 450px) {
+    .logo p {
+        font-size: 1.4rem;
+    }
+
+    .search__element .form__control {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0.5rem 1rem;
+    }
+
+    .search__element h3 {
+        font-size: 1.4rem;
+    }
+
+    .search__list {
+        width: 90%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .search__list .search__list--item {
+        width: 100%;
+    }
+
+    .movie__misc--info {
+        flex-direction: column;
+    }
+
+    .movie__misc--info li:nth-child(2) {
+        margin: 0.8rem 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .search__element {
+        flex-direction: row;
+    }
+
+    .search__element h3 {
+        margin-bottom: 0;
+    }
+
+    .result__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .movie__info {
+        text-align: left;
+        padding-top: 0;
+    }
+
+    .movie__info .movie__misc--info {
+        justify-content: flex-start;
+        padding-left: 0;
+    }
+
+    .movie__info .director {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .movie__info .writer {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .movie__info .actors {
+        padding-left: 0;
+    }
+    
+    .movie__info .plot {
+        margin-left: 0;
+    }
+
+}
+
+
 
 
 
