@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmmaker dataBase</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/ee57ffa762.js" crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <div class="container">
+                <p>the Filmmaker <span>dataBase</span></p>
+            </div>
+        </div>
+        <!-- end of logo -->
+         <!-- search container -->
+        <div class="search__container">
+            <div class="search__element">
+                <h3>Search Movie:</h3>
+                <input type="text" class="form__control" 
+                placeholder="Search a Movie | Director | Title | Actor"
+                id="movie__search--box">
+
+                <div class="search__list" id="search__list">
+                    <!-- list here -->
+                    <div class="search__list--item">
+                        <div class="search__item--thumbnail">
+                            <img src="/assets/theGodfather.jpg" alt="">
+                        </div>
+                        <div class="search__item--info">
+                            <h3>The Godfather</h3>
+                            <p>1972</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- end of search container -->
+
+    <!-- result container -->
+    <div class="container">
+        <div class="result__container">
+            <div class="result__grid" id="result__grid" >
+                <!-- movie information -->
+                 <div class="movie__poster">
+                    <img src="/assets/theGodfather.jpg" alt="">
+                 </div>
+                 <div class="movie__info">
+                    <h3 class="movie__title">The Godfather</h3>
+                    <ul class="movie__misc--info">
+                        <li class="year">Year: 1972</li>
+                        <li class="rated">Rating: R</li>
+                        <li class="released">Released: 24 March 1972</li>
+                    </ul>
+                    <p class="genre"><b>Genre:</b> Drama, Gangster</p>
+                    <p class="director"><b>Director:</b> Francis Ford Coppola</p>
+                    <p class="writer"><b>Writer:</b> Francis Ford Coppola, Mario Puzo</p>
+                    <p class="actors"><b>Actors:</b> Marlon Brando, Al Pacino, James Caan, 
+                    Diane Keaton, Robert Duvall</p>
+                    <p class="plot"><b>Plot:</b> The patriarch of an organized crime dynasty
+                    transfers control of his clandestine empire to his reluctant son.</p>
+                    <p class="language"><b>Language:</b> English</p>
+                    <p class="awards"><b><i class="fa-solid fa-award"></i></b> Won 3 Oscars</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
